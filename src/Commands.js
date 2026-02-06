@@ -3,17 +3,17 @@ function Commands() {
   let consoleOutput = [];
 
   const commands = {
-    help: "profile repo ls clear",
+    help: "whoami blogs clear",
 
-    repo: createLink(
-      "https://github.com/tomgx/void-terminal"
+    blogs: createLink(
+      "https://github.com/NVex0/uWU"
     ),
 
-    profile: createLink(
-      "https://github.com/tomgx/"
+    whoami: createLink(
+      "https://github.com/NVex0"
     ),
 
-    ls: createLS()
+    // ls: createLS()
   };
 
   function createLink(url) {
@@ -28,25 +28,25 @@ function Commands() {
   function createLS() {
     const span = document.createElement("span");
 
-    span.appendChild(createLink("https://raw.githubusercontent.com/tomgx/void.is-a-dev/main/README.md"));
+    span.appendChild(createLink(""));
     span.append(" { ");
 
-    span.appendChild(createLink("https://raw.githubusercontent.com/tomgx/void.is-a-dev/main/package-lock.json"));
+    span.appendChild(createLink(""));
     span.append(" ");
 
-    span.appendChild(createLink("https://raw.githubusercontent.com/tomgx/void.is-a-dev/main/package.json"));
+    span.appendChild(createLink(""));
     span.append(" ");
 
-    span.appendChild(createLink("https://raw.githubusercontent.com/tomgx/void.is-a-dev/main/postcss.config.js"));
+    span.appendChild(createLink(""));
     span.append(" ");
 
-    span.appendChild(createLink("https://github.com/tomgx/void.is-a-dev/tree/main/public"));
+    span.appendChild(createLink(""));
     span.append(" ");
 
-    span.appendChild(createLink("https://github.com/tomgx/void.is-a-dev/tree/main/src"));
+    span.appendChild(createLink(""));
     span.append(" ");
 
-    span.appendChild(createLink("https://raw.githubusercontent.com/tomgx/void.is-a-dev/main/tailwind.config.js"));
+    span.appendChild(createLink(""));
 
     return span;
   }

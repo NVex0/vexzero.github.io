@@ -45,12 +45,12 @@ input:focus {
   align-items: flex-start;
 
   height: 400px;
-  width: 40%;
+  width: 50%;
 
   padding: 20px;
   margin-top: -70px;
 
-  background-color: #121520;
+  background-color: #252d49;
   border-radius: 10px;
   border-style: double;
   border-width: 12px;
@@ -68,6 +68,11 @@ input:focus {
   font-weight: bold;
   letter-spacing: 2px;
   width: 100%;
+}
+
+.input-prompt input {
+  font-family: "Ubuntu Mono", monospace;
+  color: white;
 }
 
 input {
@@ -95,6 +100,12 @@ input {
 
 /* ===== HOVER LINK ===== */
 
+.hover-link {
+  color: #37b0d4;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
 .hover-link:hover {
   color: #eee;
 }
@@ -106,16 +117,6 @@ input {
   width: 100%;
   display: flex;
   justify-content: center;
-}
-
-.title-text {
-  font-size: 14px;
-  font-weight: bold;
-  padding-top: 12px;
-
-  background: linear-gradient(to right, #00e1ff, #ff62d0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 /* ===== TERMINAL HEADER TEXT ===== */
