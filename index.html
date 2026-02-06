@@ -7,11 +7,16 @@
     <meta name="theme-color" content="#000000" />
     <meta name="void" content="void" />
     <link rel="apple-touch-icon" href="favicon.png" />
-    <link rel="manifest" href="manifest.json" />
+    <link rel="manifest" href="manifest.json" />?
     <title>void</title>
+
+    <!-- CSS gốc -->
+    <link rel="stylesheet" href="index.css" />
   </head>
 
   <body onload="timeOut()" style="margin: 0">
+
+    <!-- Loader giữ nguyên -->
     <div
       id="loader"
       style="
@@ -34,9 +39,22 @@
         </div>
       </div>
     </div>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <!-- Root app container -->
     <div id="root"></div>
 
+    <!-- Load JS thuần (thay React App) -->
+    <script src="Commands.js"></script>
+    <script src="TerminalOutput.js"></script>
+    <script src="UserPrompt.js"></script>
+    <script src="Title.js"></script>
+    <script src="Terminal.js"></script>
+    <script src="App.js"></script>
+
+ 
+    <!-- Loader logic giữ nguyên -->
     <script>
       var timeout;
 
@@ -48,5 +66,6 @@
         document.getElementById("loader").style.display = "none";
       }
     </script>
+
   </body>
 </html>

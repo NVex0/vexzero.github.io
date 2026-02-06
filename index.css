@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+
+/* ===== GLOBAL ===== */
+
+body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Ubuntu Mono", monospace;
+  background-color: black;
+  color: white;
+}
+
+code {
+  font-family: "Ubuntu Mono", monospace;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* ===== SCROLLBAR HIDDEN ===== */
+
+.console-output::-webkit-scrollbar {
+  display: none;
+}
+
+.console-output {
+  font-weight: bold;
+  letter-spacing: 2px;
+  overflow-y: scroll;
+  width: 100%;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* ===== TERMINAL ===== */
+
+.console {
+  display: flex;
+  position: absolute;
+  top: 35%;
+  flex-direction: column;
+  align-items: flex-start;
+
+  height: 400px;
+  width: 40%;
+
+  padding: 20px;
+  margin-top: -70px;
+
+  background-color: #121520;
+  border-radius: 10px;
+  border-style: double;
+  border-width: 12px;
+  border-color: black;
+
+  background-position: bottom;
+  background-size: 500px;
+  background-image: url("./assets/ina2.gif");
+  background-repeat: no-repeat;
+}
+
+/* ===== INPUT ===== */
+
+.input-prompt {
+  font-weight: bold;
+  letter-spacing: 2px;
+  width: 100%;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  width: 80%;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  caret-color: #48ff00;
+}
+
+/* ===== PROMPT ===== */
+
+.prompt {
+  color: #48ff00;
+}
+
+/* ===== COMMAND OUTPUT ===== */
+
+.command-output {
+  color: #37b0d4;
+  word-spacing: 20px;
+}
+
+/* ===== HOVER LINK ===== */
+
+.hover-link:hover {
+  color: #eee;
+}
+
+/* ===== TITLE ===== */
+
+.title-container {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.title-text {
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 12px;
+
+  background: linear-gradient(to right, #00e1ff, #ff62d0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ===== TERMINAL HEADER TEXT ===== */
+
+.terminal-hint {
+  opacity: 0.2;
+  height: 0;
+  width: 100%;
+}
+
+.terminal-hint h1 {
+  float: right;
+  margin-top: -20px;
+  margin-right: -15px;
+}
+
+/* ===== CENTER CONTAINER ===== */
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
