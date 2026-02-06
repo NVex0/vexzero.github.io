@@ -26,19 +26,19 @@ const commands = {
       "{" "}
       <a
         className="hover:text-[#eee]"
-        href="https://raw.githubusercontent.com/NVex0/nvex0.github.io/main/package-lock.json"
+        href="https://raw.githubusercontent.com/NVex0/nvex0.github.io/refs/heads/main/package-lock.json"
       >
         package-lock.json
       </a>{" "}
       <a
         className="hover:text-[#eee]"
-        href="https://raw.githubusercontent.com/NVex0/nvex0.github.io/main/package.json"
+        href="https://raw.githubusercontent.com/NVex0/nvex0.github.io/refs/heads/main/package.json"
       >
         package.json
       </a>{" "}
       <a
         className="hover:text-[#eee]"
-        href="https://raw.githubusercontent.com/NVex0/nvex0.github.io/main/postcss.config.js"
+        href="https://raw.githubusercontent.com/NVex0/nvex0.github.io/refs/heads/main/postcss.config.js"
       >
         postcss.config.js
       </a>{" "}
@@ -56,7 +56,7 @@ const commands = {
       </a>{" "}
       <a
         className="hover:text-[#eee]"
-        href="https://raw.githubusercontent.com/NVex0/nvex0.github.io/main/tailwind.config.js"
+        href="https://raw.githubusercontent.com/NVex0/nvex0.github.io/refs/heads/main/tailwind.config.js"
       >
         tailwind.config.js"
       </a>
