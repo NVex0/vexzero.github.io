@@ -7,7 +7,7 @@ const commands = {
       className="hover:text-[#eee]"
       href="https://github.com/NVex0/nvex0.github.io"
     >
-      https://github.com/tomgx/void-terminal
+      https://github.com/NVex0/nvex0.github.io
     </a>
   ),
   profile: (
