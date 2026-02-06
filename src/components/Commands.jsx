@@ -5,14 +5,14 @@ const commands = {
   repo: (
     <a
       className="hover:text-[#eee]"
-      href="https://github.com/tomgx/void-terminal"
+      href="https://github.com/NVex0/nvex0.github.io"
     >
       https://github.com/tomgx/void-terminal
     </a>
   ),
   profile: (
-    <a className="hover:text-[#eee]" href="https://github.com/tomgx/">
-      https://github.com/tomgx/
+    <a className="hover:text-[#eee]" href="https://github.com/NVex0/">
+      https://github.com/NVex0/
     </a>
   ),
   ls: (
@@ -26,37 +26,37 @@ const commands = {
       "{" "}
       <a
         className="hover:text-[#eee]"
-        href="https://raw.githubusercontent.com/tomgx/void.is-a-dev/main/package-lock.json"
+        href="https://raw.githubusercontent.com/NVex0/nvex0.github.io/main/package-lock.json"
       >
         package-lock.json
       </a>{" "}
       <a
         className="hover:text-[#eee]"
-        href="https://raw.githubusercontent.com/tomgx/void.is-a-dev/main/package.json"
+        href="https://raw.githubusercontent.com/NVex0/nvex0.github.io/main/package.json"
       >
         package.json
       </a>{" "}
       <a
         className="hover:text-[#eee]"
-        href="https://raw.githubusercontent.com/tomgx/void.is-a-dev/main/postcss.config.js"
+        href="https://raw.githubusercontent.com/NVex0/nvex0.github.io/main/postcss.config.js"
       >
         postcss.config.js
       </a>{" "}
       <a
         className="hover:text-[#eee]"
-        href="https://github.com/tomgx/void.is-a-dev/tree/main/public"
+        href="https://github.com/NVex0/nvex0.github.io/tree/main/"
       >
         public
       </a>{" "}
       <a
         className="hover:text-[#eee]"
-        href="https://github.com/tomgx/void.is-a-dev/tree/main/src"
+        href="https://github.com/NVex0/nvex0.github.io/tree/main/src"
       >
         src
       </a>{" "}
       <a
         className="hover:text-[#eee]"
-        href="https://raw.githubusercontent.com/tomgx/void.is-a-dev/main/tailwind.config.js"
+        href="https://raw.githubusercontent.com/NVex0/nvex0.github.io/main/tailwind.config.js"
       >
         tailwind.config.js"
       </a>
